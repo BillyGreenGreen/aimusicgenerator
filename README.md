@@ -9,3 +9,13 @@ pip install selenium
 pip install keras
 pip install numpy
 ```
+
+## Usage main.py
+
+```python
+from train import ModelTrain
+
+if __name__ == '__main__':
+    trainer = ModelTrain()
+    trainer.train(40, 128) #exmaple uses 40 epochs and a batch_size of 128
+```
